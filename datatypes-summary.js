@@ -42,4 +42,30 @@ const myFunction = function(){
 
  console.log(typeof bigNumber);
 console.log(typeof myFunction);
-return myFunction();
+// return myFunction();
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive),  Heap(Non-primitive)
+
+let myYoutubename = "motivationalchannel"
+
+
+let anothername = myYoutubename
+anothername = "chai Aur code"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+let user1 = {
+    email: "kunalshinde7956@gmail.com",
+    upiId: "9325832912@ybl"
+}
+
+let user2 = user1 ;
+
+user2.email = "ks4756@gmail.com";
+
+console.log(user1.email);
+console.log(user2.email);
