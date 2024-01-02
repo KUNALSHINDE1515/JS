@@ -47,7 +47,39 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+
+const cousrse = {
+    coursename: "js hinde",
+    price: 99,
+    CourseInstrucror: "hitsh sir"
+}
+
+// cousrse.CourseInstrucror
+const {CourseInstrucror : kunal} = cousrse
+// console.log(CourseInstrucror);
+
+console.log(kunal);
+
+// react concept
+/*const  navbar = ({company}) => {
+
+}
+navbar(company = "hitesh")
+*/
+
+// {
+//     "name" : "kuinal",
+//     "cousename": "js in hindi",
+//     "price": " 50000"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
