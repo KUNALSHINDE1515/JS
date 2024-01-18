@@ -12,11 +12,30 @@ for (const num of arr) {
 
 const greetings = "hello kunal"
 for (const greet of greetings) {
-    console.log(`each char is ${greet}`);
+    // console.log(`each char is ${greet}`);
     
 }
 
 // Maps
 
 const map = new Map()
-map.
+map.set('IN', "India")
+map.set('USA', "United States of America")
+map.set('Fr', "France")
+map.set('IN', "India")
+
+// console.log(map);
+
+for (const [Key , value] of map) {
+    console.log(Key  , ':-' , value);
+}
+
+const myObject = {
+    'game1' : 'GTA5',
+     'game2' : 'BGMI',
+}
+
+// for (const [key , value] of myObject) {
+//     console.log(key  , ':-' , value);
+// }
+
